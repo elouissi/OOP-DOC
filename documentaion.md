@@ -193,7 +193,7 @@ echo "Side = " . $square->getSide() . "\n";
 
  ```plaintext
 
- **getters :modifier la valeur d'une valeur return rien function void()" .
+ **setters :modifier la valeur d'une valeur return rien function void()" .
 
 ```
 ```php
@@ -220,7 +220,7 @@ class Table {
 
  ```plaintext
 
- **les normes php fig PSR : c'est quand on travail par namespace l'objectifs de donner une bonne structure de notre code .
+ **  PSR-4 : c'est quand on travail par namespace l'objectifs de donner une bonne structure de notre code .
 
 ```
 * __namespace__ 
@@ -234,14 +234,14 @@ class Table {
 
  ```plaintext
 
- **namespace :c'est quand on change type de return d'une methode dans class child de la class parent  .
+ **overrate :c'est quand on change type de return d'une methode dans class child de la class parent  .
 
 ```
 * __overloading__ 
 
  ```plaintext
 
- **namespace :on travail par  __call call quand  c'est comme les conditions la fonctionne elle est adapter avec le nombre des valeurs que j'ai entres voici l'exemple il explique tous   .
+ **overloading  :on travail par  __call call quand  c'est comme les conditions la fonctionne elle est adapter avec le nombre des valeurs que j'ai entres voici l'exemple il explique tous   .
 
 ```
  **exemple overloading**
@@ -335,7 +335,9 @@ spl_autoload_register(function($class){
     }
 });
  
-
-
-
 ```
+* __mvc__ 
+
+ ```plaintext
+
+ **mvc : elle structurer notre code . frameworks mvc : la ravel ,symfony et  zend  les avantages : la separation of concerns, code re utilisable .la sécurité :.
